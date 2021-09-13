@@ -542,7 +542,7 @@ nav-item {
   fill: #afb1b8;
 }
 
-/*.subscribe-text {
+.subscribe-text {
   text-transform: uppercase;
   font-weight: bold;
   font-style: normal;
@@ -551,13 +551,11 @@ nav-item {
   text-transform: uppercase;
   color: var(--secondary-text-color);
 }
-*/
 
-/*.footer-content {
+.footer-content {
   display: flex;
   align-items: baseline;
 }
 .contact-information {
   margin-right: 70px;
 }
-*/
