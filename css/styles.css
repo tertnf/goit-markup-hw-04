@@ -53,6 +53,7 @@ img {
 .nav-link:focus,
 .contacts-link:focus {
   color: var(--accent-color);
+  fill: #2196f3;
 }
 .logo {
   margin-right: 93px;
@@ -304,7 +305,7 @@ img {
   margin-bottom: 50px;
 }
 .filter-list-item:not(:last-child) {
-  margin-right: 30px;
+  margin-right: 8px;
 }
 .projects-list {
   display: flex;
@@ -429,9 +430,7 @@ nav-item {
   padding-bottom: 0px;
   margin-bottom: 20px;
 }
-/*.page-footer .contacts-item {
-  display: block;
-}*/
+
 .page-footer .contacts-item:not(:last-child) {
   margin-bottom: 9px;
 }
@@ -442,6 +441,12 @@ nav-item {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
 }
+
+.projects-item-link:focus,
+.projects-item-link:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 .projects-title {
   margin-bottom: 4px;
 }
@@ -523,6 +528,7 @@ nav-item {
 .clients-item:not(:last-child) {
   margin-right: 30px;
 }
+
 .clients-link {
   width: 170px;
   height: 92px;
@@ -531,15 +537,17 @@ nav-item {
 }
 
 .clients-icon {
+  fill: #afb1b8;
   margin: 16px 32px;
 }
-
-.clients-icon:hover,
-.clients-icon:focus {
-  fill: #2196f3;
+.clients-link:hover,
+.clients-link:focus {
+  border: 1px solid #2196f3;
+  border-radius: 4px;
 }
-.clients-icon {
-  fill: #afb1b8;
+.clients-item:hover .clients-icon,
+.clients-link:focus .clients-icon {
+  fill: #2196f3;
 }
 
 .subscribe-text {
